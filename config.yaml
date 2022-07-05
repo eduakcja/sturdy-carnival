@@ -2,11 +2,7 @@ baseURL: http://something-fresh.org/
 languageCode: en-us
 title: Hugo Fresh Theme
 theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
-# Disables warnings
-disableKinds:
-- taxonomy
-- taxonomyTerm
+
 markup:
   goldmark:
     renderer:
@@ -20,7 +16,7 @@ params:
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/eszansa.png
-    link: /
+    link: https://e-szansa.pl
   font:
     name: "Open Sans"
     sizes: [400,600]
@@ -35,13 +31,7 @@ params:
     buttonlink: "#"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
-    # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
@@ -61,9 +51,7 @@ params:
   - title: Sign up
     url: /
     button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: eszansa
+  
     
   section1:
     title: Great power comes
