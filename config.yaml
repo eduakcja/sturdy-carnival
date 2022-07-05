@@ -1,5 +1,5 @@
 baseURL: http://something-fresh.org/
-languageCode: en-us
+languageCode: pl-pl
 title: Hugo Fresh Theme
 theme: hugo-fresh
 
@@ -22,11 +22,11 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Platforma edukacyjna
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: Stowarzyszenia dla Dzieci i Młodziezy SZANSA w Głogowie
     # Button text
-    buttontext: Get started
+    buttontext: Zacznij odkrywać
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
